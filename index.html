@@ -23,5 +23,53 @@
     <!-- tailwind css CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
+  <body>
+    <!-- main content -->
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+      <!-- header section -->
+      <header class="items-center lg:flex md:flex pt-10 mb-20">
+        <!-- text content -->
+        <div>
+          <h1 class="text-5xl font-bold">
+            It's good <br />
+            tea time at The <br />
+            Tea House
+          </h1>
+          <p class="text-[#777777] my-5">
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+            Your Taste Buds.
+          </p>
+          <button
+            class="bg-gradient-to-l from-[#FF0000] to-[#FF8938] px-4 py-3 mt-5 rounded-lg text-white font-bold text-xl"
+          >
+            Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i>
+          </button>
+        </div>
+        <!-- image content -->
+        <div class="relative">
+          <!-- image -->
+          <div>
+            <img
+              class="w-full md:w-auto sm:w-2/3 sm:mt-10 m-auto"
+              src="./tea-house-resources/images/banner.png"
+              alt=""
+            />
+          </div>
+          <!-- card -->
+          <div
+            class="flex font-bold items-center gap-3 bg-white shadow-md px-5 py-3 rounded-md absolute md:bottom-8 md:left-20 sm:bottom-10 sm:left-20"
+          >
+            <!-- icon -->
+            <div>
+              <i class="text-amber-500 text-2xl fa-solid fa-star"></i>
+            </div>
+            <div>
+              <h2 class="text-xl">5.00</h2>
+              <p class="text-[#777777]">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </header>
+    </main>
+  </body>
 </html>
